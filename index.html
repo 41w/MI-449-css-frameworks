@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>An Imaginary Company's Homepage</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!--navbar to display the name of the site and a list of 3 links-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1" >Puff Pastry Inc.</span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mr-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Our Partners
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.puffpastry.com/" >Pepperidge Farm</a>
+                <a class="dropdown-item" href="https://www.ladym.com/home">Lady M</a>
+                <a class="dropdown-item" href="https://www.starbucks.com/">Starbucks</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Online Order(Coming Soon)</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+  </div>
+
+  <!--container to center-->
+  <div class="container">
+    <!--main content in 2-column grid on lg and md, one column on sm and xs-->
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mt-3">
+        <!--display: one image visible on md and larger screens-->
+        <!--img-thumbnail-->
+        <a href="https://www.flickr.com/photos/foodicted/8652575886" target="_blank">
+          <img src="https://c1.staticflickr.com/9/8263/8652575886_95ff7a72f1_b.jpg" class="img-thumbnail" alt="Puff Pastry Picture">
+        </a>
+
+        <a href="https://pixabay.com/en/small-cake-baking-delicious-2142071/" target="_blank">
+          <img src="https://cdn.pixabay.com/photo/2017/03/14/05/48/small-cake-2142071_960_720.jpg" class="img-thumbnail my-2" alt="Cake Picture">
+        </a>
+
+        <a href="https://www.flickr.com/photos/maxbraun/6119025115" target="_blank">
+            <img src="https://c1.staticflickr.com/7/6083/6119025115_4654d868b3_b.jpg" class="img-thumbnail" alt="Drink Picture">
+        </a>
+
+        <a href="https://commons.wikimedia.org/wiki/File:Caf%C3%A9_Americain_2.jpg" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Caf%C3%A9_Americain_2.jpg" class="img-fluid d-none d-md-block d-lg-block d-xl-none my-2" alt="shop picture">
+        </a>
+        
+      </div>
+      <div class="col-lg-8 col-md-6 col-sm-12 mt-3">
+          <p><h2>History of Puff Pastry</h2></p>
+          <p>Puff pastry seems to be related to the Middle Eastern phyllo, and is used in a similar manner to create layered pastries. While traditionally ascribed to the French painter and cook Claude Lorrain who lived in the 17th century (the story goes that Lorrain was making a type of very buttery bread for his sick father, and the process of rolling the butter into the bread dough created a croissant-like finished product), references to puff pastry appear before the 17th century, indicating a history that came originally through Muslim Spain and was converted from thin sheets of dough spread with olive oil to laminated dough with layers of butter.</p>
+
+          <p>The first known recipe of modern puff pastry (using butter or lard), appears in the Spanish recipe book Libro del arte de cozina (Book on the art of cooking) written by Domingo Hernández de Maceras and published in 1607. Maceras, the head cook in one of the colleges of the University of Salamanca, already distinguished between filled puff pastry recipes and puff pastry tarts, and even mentions leavened preparations. Thus, puff pastry appears to have had widespread use in Spain by the beginning of the 17th century. The first French recipe of puff pastry was published in François Pierre La Varenne's "Pastissier françois" in 1653.</p>
+            
+
+          <small><em>Information From 
+            <a href="https://en.wikipedia.org/wiki/Puff_pastry">Wikipedia</a>
+          </em></small>
+          
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
